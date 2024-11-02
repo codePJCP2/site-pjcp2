@@ -7,17 +7,17 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "codePJCP2",
+    url: "https://docs.pjcp2-personal.cn/zh/",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "codePJCP2/site-pjcp2",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   locales: {
     "/": {
@@ -27,7 +27,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Made with ❤️ by <a href='https://github.com/codePJCP2'>codePJCP2 </a> | MIT License | Using <a href=\"https://theme-hope.vuejs.press/\" target=\"_blank\">VuePress Theme Hope</a> theme",
 
       displayFooter: true,
 
@@ -46,7 +46,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "<a href='https://github.com/codePJCP2'>codePJCP2 </a> 的个人网站, 用 ❤️ 维护 | MIT 协议 | 使用 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 主题",
 
       displayFooter: true,
 
@@ -60,7 +60,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/zh/demo/encrypt.html": ["5678"],
     },
   },
 
@@ -90,7 +90,14 @@ export default hopeTheme({
       type: "mathjax",
     },
 
-    prismjs: {
+    shiki: {
+      langs: ['ts', 'json', 'dockerfile' ,'vue', 'md', 'bash', 'diff', 'python', 'java', 'c', 'c#', 'c++', 'js', 'cmake', 'makefile', 'html', 'go', 'shell', 'php'],
+      lineNumbers: 2,
+      collapsedLines: 20,
+      themes: {
+        light: "one-light",
+        dark: "one-dark-pro",
+      },
     },
 
     // This features is enabled for demo, only preserve if you need it
