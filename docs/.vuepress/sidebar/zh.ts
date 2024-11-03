@@ -18,6 +18,12 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
+      text: "笔记",
+      icon: "book",
+      prefix: "note/",
+      children: "structure",
+    },
+    {
       text: "幻灯片",
       icon: "person-chalkboard",
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",

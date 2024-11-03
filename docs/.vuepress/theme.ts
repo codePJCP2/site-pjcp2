@@ -65,14 +65,13 @@ export default hopeTheme({
   },
 
   plugins: {
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
+    
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "codePJCP2/site-pjcp2",
+      repoId: "R_kgDONJS-Mg",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDONJS-Ms4Cj7_a",
     },
 
     components: {
@@ -91,7 +90,9 @@ export default hopeTheme({
     },
 
     shiki: {
-      langs: ['ts', 'json', 'dockerfile' ,'vue', 'md', 'bash', 'diff', 'python', 'java', 'c', 'c#', 'c++', 'js', 'cmake', 'makefile', 'html', 'go', 'shell', 'php'],
+      langs: ['ts', 'json', 'dockerfile' ,'vue', 'md', 'bash', 'diff', 
+        'python', 'java', 'c', 'c#', 'c++', 'js', 'cmake', 'makefile', 
+        'html', 'go', 'shell', 'php', 'yaml'],
       lineNumbers: 2,
       collapsedLines: 20,
       themes: {
