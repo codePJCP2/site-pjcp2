@@ -1,7 +1,7 @@
 ---
 title: 笔记
 index: false
-icon: ic:twotone-note-alt
+icon: book
 categories: 
   - 笔记
 ---
