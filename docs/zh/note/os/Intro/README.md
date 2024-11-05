@@ -1,13 +1,12 @@
 ---
-title: 2 - 并发控制
+title: 1 - 绪论
 index: false
 icon: book
 categories: 
   - 计算机操作系统
-  - 并发
 tags:
-  - 操作系统
-  - 并发控制
+  - 理解操作系统
+  - 视角
 ---
 
 <Catalog />

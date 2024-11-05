@@ -92,7 +92,7 @@ export default hopeTheme({
     shiki: {
       langs: ['ts', 'json', 'dockerfile' ,'vue', 'md', 'bash', 'diff', 
         'python', 'java', 'c', 'c#', 'c++', 'js', 'cmake', 'makefile', 
-        'html', 'go', 'shell', 'php', 'yaml'],
+        'html', 'go', 'shell', 'php', 'yaml', 'asm'],
       lineNumbers: 2,
       collapsedLines: 20,
       themes: {
