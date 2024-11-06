@@ -1,7 +1,7 @@
 ---
 title: 2 - 并发控制
 index: false
-icon: book
+icon: lock
 categories: 
   - 计算机操作系统
   - 并发

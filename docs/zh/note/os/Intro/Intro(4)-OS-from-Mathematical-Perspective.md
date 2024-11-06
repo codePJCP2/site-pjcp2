@@ -1,6 +1,6 @@
 ---
-title: 绪论(4)： 数学视角的操作系统
-icon: book
+title: Lec4 - 绪论(4)： 数学视角的操作系统
+icon: infinity
 categories:
   - 操作系统
 tags:
@@ -21,7 +21,7 @@ tags:
 
 根据 `Everything is a state machine.` 这一思想，程序其实是一种**数学严格**的对象(因为状态机也是**数学严格**的)。
 
-> 程序 = 状态 = 初始状态 + 状态迁移 (详见[绪论 2](https://www.yuque.com/yuqueyonghukaqxkk/self_learning_route/zbhox7nphbbk7kzo#YgbtA))
+> 程序 = 状态 = 初始状态 + 状态迁移 (详见[绪论 2](./Intro(2)-OS-from-an-Application's-Perspective.md#everything-c-程序-is-状态机))
 >
 
 在这个视角下，程序和数学对象已经十分接近了：

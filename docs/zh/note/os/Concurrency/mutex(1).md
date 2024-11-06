@@ -1,6 +1,6 @@
 ---
-title: 并发控制： 互斥(1)
-icon: book
+title: Lec6 - 并发控制： 互斥(1)
+icon: ban
 categories:
   - 操作系统
 tags:

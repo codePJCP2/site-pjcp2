@@ -126,6 +126,28 @@ export default hopeTheme({
               };
           },
         },
+        {
+          matcher: /^(fault|failure|error)$/i,
+          replacer: ({ tag, attrs, content }) => {
+            if (tag === "em")
+              return {
+                tag: "Badge",
+                attrs: { type: "danger", vertical: "middle" },
+                content,
+              };
+          },
+        },
+        {
+          matcher: /\bbugs?\b/i,
+          replacer: ({ tag, attrs, content }) => {
+            if (tag === "em")
+              return {
+                tag: "Badge",
+                attrs: { type: "danger" },
+                content,
+              };
+          },
+        },
       ],
       sub: true,
       sup: true,

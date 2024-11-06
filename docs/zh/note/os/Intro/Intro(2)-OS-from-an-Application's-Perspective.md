@@ -1,6 +1,6 @@
 ---
-title: 绪论(2)： 应用视角的操作系统
-icon: book
+title: Lec2 - 绪论(2)： 应用视角的操作系统
+icon: wrench
 categories:
   - 操作系统
 tags:

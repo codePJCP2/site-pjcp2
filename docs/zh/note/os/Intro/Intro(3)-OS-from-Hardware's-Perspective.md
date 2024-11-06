@@ -1,6 +1,6 @@
 ---
-title: 绪论(3)： 硬件视角的操作系统
-icon: book
+title: Lec3 - 绪论(3)： 硬件视角的操作系统
+icon: microchip
 categories:
   - 操作系统
 tags:
