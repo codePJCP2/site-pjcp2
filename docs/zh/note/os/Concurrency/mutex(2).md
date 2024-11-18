@@ -74,7 +74,7 @@ tags:
   - 共享内存 + 各个 CPU 内维护的寄存器状态
 - 状态迁移
   - 选择任意 CPU
-    - 取值执行 **or 响应中断**
+    - 取指执行 **or 响应中断**
 
 ::: note :thinking: 如果在执行 Critical Section 的时候，CPU 响应中断了的话，会发生什么情况？
 
