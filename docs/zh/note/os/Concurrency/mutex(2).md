@@ -1,5 +1,6 @@
 ---
-title: Lec7 - 并发控制： 互斥(2)
+title: 并发控制： 互斥(2)
+order: 7
 icon: ban
 categories:
   - 操作系统

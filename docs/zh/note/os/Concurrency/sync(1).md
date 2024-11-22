@@ -1,5 +1,6 @@
 ---
-title: Lec9 - 并发控制： 同步(1)
+title: 并发控制： 同步(1)
+order: 9
 icon: arrows-rotate
 categories:
   - 操作系统

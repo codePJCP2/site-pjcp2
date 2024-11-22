@@ -1,5 +1,6 @@
 ---
-title: Lec5 - 多处理器编程： 从入门到放弃
+title: 多处理器编程： 从入门到放弃
+order: 5
 icon: scroll
 categories:
   - 操作系统

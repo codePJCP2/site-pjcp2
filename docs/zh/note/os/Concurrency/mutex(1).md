@@ -1,5 +1,6 @@
 ---
-title: Lec6 - 并发控制： 互斥(1)
+title: 并发控制： 互斥(1)
+order: 6
 icon: ban
 categories:
   - 操作系统

@@ -1,5 +1,6 @@
 ---
-title: Lec8 - 调试理论与实践
+title: 调试理论与实践
+order: 8
 icon: bug
 categories:
   - 操作系统

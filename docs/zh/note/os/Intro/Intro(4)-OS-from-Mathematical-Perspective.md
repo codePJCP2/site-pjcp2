@@ -1,5 +1,6 @@
 ---
-title: Lec4 - 绪论(4)： 数学视角的操作系统
+title: 绪论(4)： 数学视角的操作系统
+order: 4
 icon: infinity
 categories:
   - 操作系统

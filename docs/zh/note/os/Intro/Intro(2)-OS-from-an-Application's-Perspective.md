@@ -1,5 +1,6 @@
 ---
-title: Lec2 - 绪论(2)： 应用视角的操作系统
+title: 绪论(2)： 应用视角的操作系统
+order: 2
 icon: wrench
 categories:
   - 操作系统

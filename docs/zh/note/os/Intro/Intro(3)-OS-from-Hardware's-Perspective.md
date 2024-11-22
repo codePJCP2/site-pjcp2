@@ -1,5 +1,6 @@
 ---
-title: Lec3 - 绪论(3)： 硬件视角的操作系统
+title: 绪论(3)： 硬件视角的操作系统
+order: 3
 icon: microchip
 categories:
   - 操作系统
