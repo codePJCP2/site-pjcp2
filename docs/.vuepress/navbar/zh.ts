@@ -19,7 +19,7 @@ export const zhNavbar = navbar([
                 text: "计算机操作系统",
                 icon: "book",
                 prefix: "os/",
-                children: ["Intro/", "Concurrency/"],
+                children: ["Intro/", "Concurrency/", "Virtualization/"],
             },
         ],
     },
