@@ -151,5 +151,3 @@ export default defineUserConfig({
 ![跳转至 Custom Domain 选项来自定义域名](./assets/image-20241103192644417.png "跳转至 Custom Domain 选项来自定义域名")
 
 配置详情参见 [配置 GitHub Pages 站点的自定义域 - GitHub 中文文档](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site)。
-
-### 参照 _Theme Hope_ 官方部署示例的一些隐藏问题

@@ -377,10 +377,10 @@ void broadcast(struct condvar *cv) {
 这段代码也是很难修改的：
 
 - 先释放锁，再执行 P
-  - 释放锁的一瞬间可能与 `broadcast` 并发
+  - 释放锁的一瞬间可能与 `broadcast` 并发，然后把 `cv->nwait` 清零 —— 信号量被吞了一部分！
 
 - 先执行 P，再释放锁
-  - `P(&cv->sleep)` 会 “永久睡眠”
+  - `P(&cv->sleep)` 会 “永久睡眠” —— 还持有锁呢就睡了？
 
 那该怎么办？
 

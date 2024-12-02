@@ -87,6 +87,8 @@ void T_philosopher() {
 
 1. Mutual-exclusion - 一个口袋一个球，**得到球才能继续**
 2. Wait-for - 得到球的人想要 **更多的球**
+   1. 可能的解决方案：原子存取资源 —— "一把大锁保平安"
+
 3. No-preemption - **不能** 抢别人的持有的球
 4. Circular-chain - 形成 **循环等待** 球的关系
 
@@ -102,7 +104,27 @@ void T_philosopher() {
 
 - 任意时刻系统中的锁都是有限的
 - 给所有锁编号 (***Lock Ordering***)
-  - 严格按照从小到大的顺序获得锁
+  - 严格按照某种特定的顺序获得锁
+    ```C title="Example of Lock Ordering"
+    void do_something(mutex_t* m1, mutex_t* m2)
+    {
+        if(m1 > m2)
+        {
+            pthread_mutex_lock(m1);
+            pthread_mutex_lock(m2);
+        }
+        else
+        {
+            pthread_mutex_lock(m2);
+            pthread_mutex_lock(m1);
+        }
+    }
+    
+    do_something(m1, m2);
+    // equals to do_something(m2, m1), thus doesn't results into ABBA deadlock
+    ```
+  
+    
 
 ::: details 为什么？(证明)
 
